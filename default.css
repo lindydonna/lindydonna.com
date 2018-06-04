@@ -6,7 +6,7 @@
 
 a
 {
-	color: #8DA359;
+	color: purple;
 	text-decoration: underline;
 }
 
@@ -23,8 +23,7 @@ a:hover
 
 body
 {
-	background-color: #F0E3A4;
-	background-image: url('images/a4.gif');
+	background-color: white;
 	background-repeat: repeat-x;
 	color: #37371E;
 	font-family: 'Bitter', serif;
@@ -42,8 +41,7 @@ body
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 1.0em;
-	background-color: #FEFEF2;	
-	background-image: url('images/a3.gif');
+	background-color: white;	
 	background-repeat: repeat-x;
 	padding: 1.0em;
 	border-top: solid 1px #ffffff;
@@ -58,15 +56,14 @@ body
 
 #menu
 {
-	background-color: #6C7424;
-	background-image: url('images/a1.gif');
+	background-color: gray;
 	background-repeat: repeat-x;
 	color: #ffffff;
 	height: 1.4em;
 	line-height: 1.4em;
 	padding: 0.8em;
 	border-bottom: solid 1px #ffffff;
-	border-top: solid 1px #6D7B34;
+	border-top: solid 1px gray;
 }
 
 #menu a
@@ -96,15 +93,13 @@ body
 
 #menu li a:hover
 {
-	background-color: #515815;
-	background-image: url('images/a2.gif');
+	background-color: rgba(114, 31, 114, 0.712);
 	background-repeat: repeat-x;
 }
 
 #menu a.active
 {
-	background-color: #515815;
-	background-image: url('images/a2.gif');  
+	background-color: rgb(95, 5, 95);
 	background-repeat: repeat-x;
 }
 
@@ -115,7 +110,7 @@ body
 
 #header h1
 {
-	font-size: 2.5em;
+	font-size: 3em;
 	text-transform: lowercase;
 	font-weight: 400;
 	letter-spacing: -0.05em;
@@ -124,7 +119,7 @@ body
 
 #header span.myname 
 { 
-	color:#555822; 
+	color: purple; 
 } 
 
 #header span.bolded
@@ -259,7 +254,7 @@ body
 
 img.mypic
 {
-    border-color: #515815;
+    border-color: purple;
     border-width: 2px;
     border-style: solid;
 }
